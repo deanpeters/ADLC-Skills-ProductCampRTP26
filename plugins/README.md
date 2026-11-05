@@ -11,6 +11,8 @@ These are ZIP archives with a `.plugin` extension. Download the raw file rather 
 
 The Claude marketplace is named `adlc-productcamp-rtp26`; its plugin is `adlc`. The marketplace catalog stays in the repository and is not bundled inside either archive.
 
+Codex can use the same repository marketplace. Follow the [Codex terminal commands](../README.md#codex) to add the marketplace and install `adlc@adlc-productcamp-rtp26`. You do not need to download `codex.plugin` for that route. The archive is for compatible import or local-plugin workflows; a `.plugin` file is not a universal one-click installer.
+
 ## Rebuild
 
 From the repository root, with the `zip` command installed:

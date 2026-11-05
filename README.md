@@ -94,9 +94,25 @@ Download [claude.plugin](plugins/claude.plugin) with GitHub's download button an
 
 ### Codex
 
-Download [codex.plugin](plugins/codex.plugin) and install it the way your version of Codex supports local plugins. See [OpenAI's plugin documentation](https://developers.openai.com/plugins/build/plugins).
+Use a current Codex CLI with the `plugin` commands available. In your **terminal**, run these one at a time (these are not chat slash commands):
 
-Or skip installing: **Code → Download ZIP**, open the folder as your project, and ask Codex to read and follow `skills/<skill-name>/SKILL.md`.
+```bash
+codex plugin marketplace add deanpeters/ADLC-Skills-ProductCampRTP26
+codex plugin add adlc@adlc-productcamp-rtp26
+codex plugin list --marketplace adlc-productcamp-rtp26 --json
+```
+
+The last command should show `adlc@adlc-productcamp-rtp26` under `installed`, with `enabled: true`. Restart Codex and start a new chat, then try:
+
+```text
+Use adlc-util-agent-strategy-canvas in Guided mode on my agent idea.
+```
+
+If your CLI does not recognize `codex plugin`, update it before using these commands. This installation route fetches the plugin from the repository; you do not need to download [codex.plugin](plugins/codex.plugin) separately. That file is a ZIP package for compatible import or local-plugin workflows, not a universal one-click installer.
+
+See [OpenAI's marketplace documentation](https://developers.openai.com/plugins/build/plugins#add-a-marketplace-from-the-cli) for supported sources and desktop installation options.
+
+Or skip installing: **Code → Download ZIP**, extract it, open the folder as your project, and ask Codex to read and follow `skills/<skill-name>/SKILL.md` and its linked references. This uses the files directly; it does not install the plugin.
 
 ### Any chatbot that accepts files
 
