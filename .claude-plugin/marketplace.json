@@ -1,0 +1,33 @@
+{
+  "name": "adlc-productcamp-rtp26",
+  "owner": {
+    "name": "Dean Peters"
+  },
+  "metadata": {
+    "description": "ADLC instructional skills for ProductCamp RTP 2026 attendees.",
+    "version": "0.6.0"
+  },
+  "plugins": [
+    {
+      "name": "adlc",
+      "source": "./",
+      "description": "Move from agent intent to the right thing to build, then validate, deploy, and observe it: six lifecycle skills plus utility skills for pivot, punt, or pursue decisions.",
+      "version": "0.6.0",
+      "author": {
+        "name": "Dean Peters"
+      },
+      "homepage": "https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26",
+      "repository": "https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26",
+      "license": "CC-BY-NC-SA-4.0",
+      "category": "productivity",
+      "tags": [
+        "agent-development-lifecycle",
+        "product-management",
+        "agentic-ai",
+        "evaluation",
+        "governance"
+      ],
+      "strict": true
+    }
+  ]
+}

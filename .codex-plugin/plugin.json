@@ -1,0 +1,36 @@
+{
+  "name": "adlc",
+  "version": "0.6.0",
+  "description": "Instructional ADLC skills from Dean Peters’ ProductCamp RTP 2026 talk: shape, secure, and ship AI agents with humans at the helm.",
+  "author": {
+    "name": "Dean Peters"
+  },
+  "homepage": "https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26",
+  "repository": "https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26",
+  "license": "CC-BY-NC-SA-4.0",
+  "keywords": [
+    "agent-development-lifecycle",
+    "product-management",
+    "agentic-ai",
+    "evaluation",
+    "governance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Agent Development Lifecycle",
+    "shortDescription": "Build governed and observable agent systems.",
+    "longDescription": "A focused lifecycle method for Product Managers and product teams to frame agent intent, design agent systems, generate harnesses, validate behavior, deploy with governance, and observe improvement loops.",
+    "developerName": "Dean Peters",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Research",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Help me frame this agent idea before we design it.",
+      "Turn this agent concept into an eval-ready lifecycle plan.",
+      "Review this live agent and decide what to improve, change, or stop."
+    ]
+  }
+}
