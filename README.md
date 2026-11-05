@@ -1,50 +1,88 @@
 # ADLC Skills · ProductCamp RTP 2026
 
-From the ProductCamp RTP 2026 talk 'ADLC: What It Is & What It Ain't' by Dean Peters.
+**Shape, secure, and ship AI agents, with humans at the helm.**
 
-Instructional skills that help Product Managers shape, secure, and ship AI agents with humans at the helm. Each skill helps you make an artifact, name the evidence, and stop at a human decision.
+You saw Kevin get hired to summarize feedback, promoted one reasonable rung at a time, and turn into a rogue agent. These are the skills that keep your Kevin from becoming that Kevin.
 
-This is Dean's personal attendee edition of instructional material developed with Productside. It is a set of digital takeaways, not a software product or a certification that an agent is ready to ship.
+From the ProductCamp RTP 2026 talk *"ADLC: What It Is & What It Ain't: How to Tame AI Agents So You Don't Get Vibe-Fired"* by Dean Peters.
 
-**Start here:** [Try Kevin: three skills in ten minutes](https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26/blob/main/examples/try-it-kevin/TRY-IT.md).
+> **New here? [Try Kevin: three skills in ten minutes →](examples/try-it-kevin/TRY-IT.md)**
 
-## The six-stage loop
+## What you can do with these
 
-Enter where your current work needs help. Evidence can send you back to an earlier stage.
+Bring an agent idea, or an agent that's already running, and walk away with something you can put in front of your team, your boss, or your next interviewer:
 
-| Stage | Skill | What you leave with |
+- **Decide whether an agent is worth building at all.** Get a nine-box Agent Strategy Canvas and a straight answer: pivot, punt, or pursue.
+- **Give every agent a reason, limits, and an exit.** Write down who it serves, what it may and may never do, and who can stop it, before anyone picks a tool.
+- **Catch what demos hide.** Turn "it works in the demo" into evals that test behavior, failure cases, and the product's outcomes, not just Kevin's unit tests.
+- **Separate capability from permission.** Set launch gates, oversight, rollback, and authority to stop.
+- **Catch constraint decay before you need a governance root canal.** Check a live agent for the five signs: Mission Mush, Context Creep, Promiscuous Permissions, Safeguard Sloppage, and Output Obsession.
+- **Ask whether the deal has changed.** When your product moves from growth to maturity, check whether its agent's job should move too.
+
+Every skill works the same way: it builds a named artifact, labels what's fact and what's a guess, and **stops at a human decision**. It never approves anything for you.
+
+## Start from where you are
+
+You don't have to begin at the beginning. Pick the line that sounds like your week.
+
+| If you have… | And you need… | Use |
 |---|---|---|
-| Intent | [Frame Intent](skills/adlc-step1-frame-intent/SKILL.md) | An Agent Intent Brief: whose work changes, why, and within what limits. |
-| Design | [Design Agent System](skills/adlc-step2-design-agent-system/SKILL.md) | An Agent System Map: tools, context, memory, and control boundaries. |
-| Harness | [Generate Agent Harness](skills/adlc-step3-generate-agent-harness/SKILL.md) | An Agent Harness Brief: an inspectable build plan and test surface. |
-| Validate | [Validate Agent Behavior](skills/adlc-step4-validate-agent-behavior/SKILL.md) | A Validation Pack: expected behavior, failure cases, and evidence. |
-| Deploy | [Deploy With Governance](skills/adlc-step5-deploy-with-governance/SKILL.md) | A Governed Deployment Plan: launch gates, oversight, rollback, and stop authority. |
-| Observe | [Observe And Improve](skills/adlc-step6-observe-and-improve/SKILL.md) | An Observation Review: improve, reframe, restrict, or retire. |
+| "Leadership wants us to build an agent" | to know if it's worth it, on one page | [Agent Strategy Canvas](skills/adlc-util-agent-strategy-canvas/SKILL.md) |
+| an idea everyone likes | a clear purpose, autonomy level, and stop conditions | [Frame Intent](skills/adlc-step1-frame-intent/SKILL.md) |
+| an approved idea | the tools, data, permissions, and boundaries mapped out | [Design Agent System](skills/adlc-step2-design-agent-system/SKILL.md) |
+| a design | a bet you can test cheaply before building | [Solution Hypothesis](skills/adlc-util-solution-hypothesis/SKILL.md) |
+| a design you're ready to build | a build plan a reviewer can actually inspect | [Generate Agent Harness](skills/adlc-step3-generate-agent-harness/SKILL.md) |
+| a few ways to build it | one story per prototype, and a prompt any builder can use | [Minimum Viable Narrative](skills/adlc-util-minimum-viable-narrative/SKILL.md) |
+| a working prototype | evals that show whether it's actually ready | [Validate Agent Behavior](skills/adlc-step4-validate-agent-behavior/SKILL.md) |
+| passing evals | launch gates, oversight, rollback, and who can stop it | [Deploy With Governance](skills/adlc-step5-deploy-with-governance/SKILL.md) |
+| a live agent | to learn from what it's doing: improve, restrict, or retire | [Observe And Improve](skills/adlc-step6-observe-and-improve/SKILL.md) |
+| a live agent that's had lots of small changes | a check of the total against what was approved | [Constraint Decay Check](skills/adlc-util-decay-check/SKILL.md) |
+| a product whose numbers changed direction | to know whether its agent's job should change too | [Product Lifecycle Check](skills/adlc-util-plc-check/SKILL.md) |
 
-## Five utilities
+## The loop
 
-| Skill | What it helps you decide |
-|---|---|
-| [Agent Strategy Canvas](skills/adlc-util-agent-strategy-canvas/SKILL.md) | Is the agent's problem, scope, and value worth pursuing? |
-| [Solution Hypothesis](skills/adlc-util-solution-hypothesis/SKILL.md) | What must be true, and what small tests could change the decision? |
-| [Minimum Viable Narrative](skills/adlc-util-minimum-viable-narrative/SKILL.md) | What human journey should a prototype let us test? |
-| [Constraint Decay Check](skills/adlc-util-decay-check/SKILL.md) | What changed without a matching change in constraints? |
-| [Product Lifecycle Check](skills/adlc-util-plc-check/SKILL.md) | Has the product changed enough that the agent's job should change too? |
+Five motions do the steering. You govern at the helm.
 
-## Install or read
+```mermaid
+flowchart LR
+  I["1 · Frame Intent"] --> D["2 · Design System"] --> G["3 · Generate Harness"]
+  G --> V["4 · Validate Behavior"] --> P["5 · Deploy With Governance"] --> O["6 · Observe And Improve"]
+  O -. "what you learn feeds back" .-> I
+```
 
-You need access to the application you choose. These files do not supply an account, model, or API key.
+It isn't a waterfall. A failed eval can send you back to design. An incident can change the intent. A governance constraint can stop a launch. Each stage leaves you with an artifact you can share and argue with:
+
+| Stage | Skill | You leave with |
+|---|---|---|
+| 1 | [Frame Intent](skills/adlc-step1-frame-intent/SKILL.md) | **Agent Intent Brief:** whose work changes, why, and within what limits |
+| 2 | [Design Agent System](skills/adlc-step2-design-agent-system/SKILL.md) | **Agent System Map:** tools, context, memory, permissions, and control boundaries |
+| 3 | [Generate Agent Harness](skills/adlc-step3-generate-agent-harness/SKILL.md) | **Agent Harness Brief:** an inspectable build plan and test surface |
+| 4 | [Validate Agent Behavior](skills/adlc-step4-validate-agent-behavior/SKILL.md) | **Validation Pack:** expected behavior, failure probes, and evidence |
+| 5 | [Deploy With Governance](skills/adlc-step5-deploy-with-governance/SKILL.md) | **Governed Deployment Plan:** launch gates, oversight, rollback, and stop authority |
+| 6 | [Observe And Improve](skills/adlc-step6-observe-and-improve/SKILL.md) | **Observation Review:** continue, change, restrict, or retire |
+
+## Three ways to start a skill
+
+Every skill asks you to pick one:
+
+- **Guided:** when you know the answers but haven't written them down. It asks one question at a time and skips anything you've already told it.
+- **Context dump:** when you have the documents. Hand it your brief, notes, or dashboards, and it sorts what's known, assumed, missing, or in conflict, then asks only about the gaps.
+- **Best guess:** when you need a first draft to argue with. It drafts everything now and marks every assumption.
+
+## Install
+
+You'll need your own access to the app you choose. Nothing here supplies an account, model, or API key.
 
 ### Claude Code
 
-In a Claude Code session, run these commands one at a time:
+In a Claude Code session, run these one at a time:
 
 ```text
 /plugin marketplace add deanpeters/ADLC-Skills-ProductCampRTP26
 /plugin install adlc@adlc-productcamp-rtp26
 ```
 
-Start a new session after installation. Invoke a skill by its namespaced command, for example:
+Start a new session, then call a skill by name, for example:
 
 ```text
 /adlc:adlc-util-agent-strategy-canvas
@@ -52,35 +90,31 @@ Start a new session after installation. Invoke a skill by its namespaced command
 
 ### Claude Cowork
 
-Download [claude.plugin](https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26/blob/main/plugins/claude.plugin) using GitHub's download button. Upload it through Cowork's plugin interface. If the file picker requires a `.zip` extension, rename the downloaded copy to `claude.zip`; its contents are already a ZIP archive. Start a new session after enabling it.
+Download [claude.plugin](plugins/claude.plugin) with GitHub's download button and upload it through Cowork's plugin interface. If the file picker wants a `.zip`, rename your copy to `claude.zip`; it's already a ZIP archive. Start a new session after enabling it.
 
 ### Codex
 
-Download [codex.plugin](https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26/blob/main/plugins/codex.plugin). It contains the Codex compatibility manifest, all eleven skills, and their supporting material. Plugin installation options vary by Codex surface: use a local plugin or marketplace workflow supported by your version. See [OpenAI's plugin documentation](https://developers.openai.com/plugins/build/plugins).
+Download [codex.plugin](plugins/codex.plugin) and install it the way your version of Codex supports local plugins. See [OpenAI's plugin documentation](https://developers.openai.com/plugins/build/plugins).
 
-For a route that does not need plugin installation, download this repository with **Code → Download ZIP**, extract it, and open the folder as your project. Ask Codex to read the chosen `skills/<skill-name>/SKILL.md`, follow its linked references, and run it in your chosen mode. This uses the files directly; it does not register the plugin.
+Or skip installing: **Code → Download ZIP**, open the folder as your project, and ask Codex to read and follow `skills/<skill-name>/SKILL.md`.
 
 ### Any chatbot that accepts files
 
-Download and extract this repository. Provide the chosen skill's `SKILL.md`, `template.md`, and the supporting references it requests. Ask it to follow those instructions in Guided, Context dump, or Best guess mode. If it cannot read a linked file, supply that file before proceeding.
+Download the repository and give the chatbot the skill's `SKILL.md`, its `template.md`, and any files it asks for. Then tell it which mode you want: Guided, Context dump, or Best guess.
 
-## What to expect
+## Before you use it for real
 
-- **Guided** asks one question at a time and reuses what you already supplied.
-- **Context dump** organizes the context you give it and identifies gaps.
-- **Best guess** drafts with labeled assumptions and unknowns.
-- Every mode stops for a human decision. A generated artifact does not approve an agent, authorize access, or establish readiness.
+- **Practice with fiction first.** Every example here is synthetic and invented for teaching. Keep customer records, credentials, and anything confidential out of practice sessions.
+- **You decide.** The skills structure the thinking. They don't approve an agent, grant access, or certify that anything is ready. Review what they give you before you act on it.
+- **These are teaching materials, not software.** They have structural checks and worked examples, not real-world usability testing.
+- **ADLC isn't a settled standard, and nobody owns it.** This is one practical approach. Other organizations use the term differently.
 
-Every example is synthetic and invented for teaching. Start with fictional inputs; keep customer records, credentials, and confidential material out of your practice session.
+## Where the ideas come from
 
-These are instructional takeaways. They have structural checks and synthetic examples; they are not a claim of completed real-world usability testing or production effectiveness. Review the output before using it to make decisions.
+The [glossary](reference/glossary.md) explains every term in plain language. The [findings](findings/adlc-working-model.md) summarize the published guidance behind each skill, and the [bibliography](findings/bibliography.md) credits the original sources. Linked third-party works keep their own rights and terms.
 
-ADLC is not a settled standard, and nobody owns it. These skills express one practical approach. Other organizations use the term differently.
+## License
 
-## Sources and license
+Credit: Dean Peters and Productside. Licensed under [CC BY-NC-SA 4.0](LICENSE). You can share and adapt it if you give credit, keep it non-commercial, note your changes, and share your adaptations under the same license. This license doesn't grant rights to third-party works or trademarks.
 
-The [glossary](reference/glossary.md) explains the terms. The [findings](findings/adlc-working-model.md) and [bibliography](findings/bibliography.md) credit the guidance behind the skills. Linked third-party works retain their own rights and terms.
-
-Credit: Dean Peters and Productside. This attendee edition preserves the source material's [CC BY-NC-SA 4.0 license](LICENSE): share and adapt it, give credit, keep use non-commercial, identify your changes, and distribute adaptations under the same license. This license does not grant rights to third-party works or trademarks.
-
-Package version: **0.6.0**. [Package contents and rebuild commands](https://github.com/deanpeters/ADLC-Skills-ProductCampRTP26/blob/main/plugins/README.md).
+Package version **0.6.0** · [what's in the packages](plugins/README.md) · [what changed in this edition](CHANGES.md)

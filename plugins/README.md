@@ -7,7 +7,7 @@ Version **0.6.0** contains eleven instructional skills for ProductCamp RTP 2026 
 | [claude.plugin](claude.plugin) | Claude Code / Claude Cowork | Claude manifest, skills, reference, findings, root README, and license. |
 | [codex.plugin](codex.plugin) | Codex | Codex compatibility manifest, skills, reference, findings, root README, and license. |
 
-These are ZIP archives with a `.plugin` extension. Download the raw file rather than saving GitHub's preview page. Rename a local copy to `.zip` if your file picker requires that extension. Application support and installation options vary; see the [installation guidance](../README.md#install-or-read).
+These are ZIP archives with a `.plugin` extension. Download the raw file rather than saving GitHub's preview page. Rename a local copy to `.zip` if your file picker requires that extension. Application support and installation options vary; see the [installation guidance](../README.md#install).
 
 The Claude marketplace is named `adlc-productcamp-rtp26`; its plugin is `adlc`. The marketplace catalog stays in the repository and is not bundled inside either archive.
 
