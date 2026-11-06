@@ -7,6 +7,8 @@ You saw Kevin get hired to summarize feedback, promoted one reasonable rung at a
 From the ProductCamp RTP 2026 talk *"ADLC: What It Is & What It Ain't: How to Tame AI Agents So You Don't Get Vibe-Fired"* by Dean Peters.
 
 > **New here? [Try Kevin: three skills in ten minutes →](examples/try-it-kevin/TRY-IT.md)**
+>
+> **Missed a slide? [Get the deck (PDF) →](slides/deanpeters.productcamprtp.adlc-what-it-is-and-is-not.pdf)**
 
 ## What you can do with these
 
