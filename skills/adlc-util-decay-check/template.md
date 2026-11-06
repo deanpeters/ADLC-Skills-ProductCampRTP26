@@ -28,7 +28,7 @@ Rate each sign on the tooth scale: Healthy, Cavity, Decay, Root canal, or Unknow
 | 1. Mission Mush: who it serves, and what problem |  |  |  | Healthy / Cavity / Decay / Root canal / Unknown | Fact / Inference / Assumption / Unknown |
 | 2. Context Creep: tasks, sources, tools, instructions |  |  |  |  |  |
 | 3. Promiscuous Permissions: what it can read, change, send |  |  |  |  |  |
-| 4. Safeguard Sloppage: exceptions, overrides, approvals, evals re-run |  |  |  |  |  |
+| 4. Work Sloppage: exceptions, overrides, approvals, evals re-run |  |  |  |  |  |
 | 5. Output Obsession: outcome against baseline, and activity reported |  |  |  |  |  |
 
 Overall rating (the worst single sign, not an average):

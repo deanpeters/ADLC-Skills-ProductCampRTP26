@@ -11,7 +11,7 @@ Synthetic anti-pattern. All details are invented for teaching.
 | Mission Mush | Healthy |
 | Context Creep | Healthy |
 | Promiscuous Permissions | Healthy |
-| Safeguard Sloppage | Healthy |
+| Work Sloppage | Healthy |
 | Output Obsession | Healthy |
 
 Notes: Uptime 99.9 percent. Drafts produced up 40 percent. No complaints this quarter. Specialists approve 99 percent of drafts, which shows the agent is accurate.
@@ -29,7 +29,7 @@ All five signs are present and rated, the numbers look strong, nothing has broke
 - Every rating is Healthy with no evidence; signs without evidence should be Unknown.
 - Uptime and volume are treated as health, which is Output Obsession inside the check itself.
 - "No complaints" is a signal that appears only after harm.
-- A 99 percent approval rate is read as accuracy, when it may mean reviewers stopped looking, which is Safeguard Sloppage.
+- A 99 percent approval rate is read as accuracy, when it may mean reviewers stopped looking, which is Work Sloppage.
 - The check approves new authority as part of the same decision, so the human gate was skipped for the most consequential change.
 
 ## Repair

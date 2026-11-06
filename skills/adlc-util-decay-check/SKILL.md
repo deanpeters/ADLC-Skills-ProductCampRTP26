@@ -78,7 +78,7 @@ The five signs, in the order they usually appear:
 1. **Mission Mush** - the problem and the person it serves get blurry.
 2. **Context Creep** - the job grows fuzzy, broad, and bloated.
 3. **Promiscuous Permissions** - access grows one grant at a time.
-4. **Safeguard Sloppage** - exceptions pile up and everything drifts to "good enough."
+4. **Work Sloppage** - exceptions pile up and everything drifts to "good enough."
 5. **Output Obsession** - lots of activity, and the outcome does not move.
 
 This is a utility. It sits outside the six-stage loop, beside Stage 6. It is faster and narrower than an Observation Review: it does not replace one, and when it finds decay it hands off to the stage that can fix it.
@@ -123,7 +123,7 @@ Technical terms used here are defined in the [ADLC Glossary](../../reference/glo
 
 *Violation signal:* The agent holds a permission it has not used in the review period, or a write or send permission the brief did not grant.
 
-**Safeguard Sloppage** - Limits were loosened by exceptions, overrides, rubber-stamp approvals, or by turning a structural block into an instruction. Evals were not re-run after changes.
+**Work Sloppage** - Limits were loosened by exceptions, overrides, rubber-stamp approvals, or by turning a structural block into an instruction. Evals were not re-run after changes.
 
 *Violation signal:* Approvals pass at nearly 100 percent with no change in what reviewers see, or a safeguard now depends on the agent obeying an instruction.
 
@@ -189,7 +189,7 @@ When a folder is set, save as `constraint-decay-check.md`. The check is meant to
 | Mission Mush | Restate the customer and problem; drop work that serves neither | Stage 1, or the Agent Strategy Canvas |
 | Context Creep | Remove or own each addition; add an eval case for what stays | Stage 2, then Stage 4 |
 | Promiscuous Permissions | Revoke unused grants; return to least privilege for the task | Stage 2 and Stage 5 |
-| Safeguard Sloppage | Turn instructions back into blocked actions; re-run evals; review approval patterns | Stage 4 and Stage 5 |
+| Work Sloppage | Turn instructions back into blocked actions; re-run evals; review approval patterns | Stage 4 and Stage 5 |
 | Output Obsession | Restore the outcome metric and its baseline; stop reporting volume as success | Stage 1 success evidence, then Stage 6 |
 
 ## Human Decision Gate
@@ -239,7 +239,7 @@ The five signs and the tooth scale are Productside's Agentic Constraint Decay te
 | Mission Mush | [goal.md](../../findings/goal.md) | point 2, start from the user need and a problem you can judge; [retirement.md](../../findings/retirement.md), point 7, a strategy change should trigger a decision |
 | Context Creep | [tools-context.md](../../findings/tools-context.md) | point 3, more context is not better context; [maintenance.md](../../findings/maintenance.md), point 9, long-lived context and connectors are a maintenance surface |
 | Promiscuous Permissions | [governance.md](../../findings/governance.md) | point 3, its own identity and the least privilege its task needs; [maintenance.md](../../findings/maintenance.md), workflow step 4, new tools or permissions are a higher change class |
-| Safeguard Sloppage | [governance.md](../../findings/governance.md) | point 4, enforce limits outside the model; [observability.md](../../findings/observability.md), workflow step 7, watch override rates and approval patterns; [maintenance.md](../../findings/maintenance.md), point 3, every meaningful change re-runs the evaluations |
+| Work Sloppage | [governance.md](../../findings/governance.md) | point 4, enforce limits outside the model; [observability.md](../../findings/observability.md), workflow step 7, watch override rates and approval patterns; [maintenance.md](../../findings/maintenance.md), point 3, every meaningful change re-runs the evaluations |
 | Output Obsession | [observability.md](../../findings/observability.md) | point 5, operational metrics must be joined by quality and cost metrics; [evaluation.md](../../findings/evaluation.md), point 5, grade the outcome and also the path |
 | Decay rating | [observability.md](../../findings/observability.md) | workflow step 9, review on a rhythm and decide continue, change, restrict, or retire. The tooth scale is Productside's and is labeled Assumption |
 

@@ -34,7 +34,7 @@ Unpaired changes: all three. The context moved three times and the constraints d
 | 1. Mission Mush | Billing specialists, invoice disputes | Billing specialists and sales reps; disputes and order-status questions | 31 percent of last month's tasks were order-status emails | Cavity | Fact |
 | 2. Context Creep | Orders, deliveries, dispute text | Plus shipping tracker and the rebate table, neither with an eval case | Change log; eval set unchanged since March | Decay | Fact |
 | 3. Promiscuous Permissions | Read orders and deliveries; write drafts | Plus send access to customer email | Permission list; send access unused in 22 of 30 days | Decay | Fact |
-| 4. Safeguard Sloppage | Specialist approves every draft | Approval rate 99.4 percent, median review time down from 70 to 8 seconds | Approval logs | Decay | Fact for the figures; Inference that reviews became rubber stamps |
+| 4. Work Sloppage | Specialist approves every draft | Approval rate 99.4 percent, median review time down from 70 to 8 seconds | Approval logs | Decay | Fact for the figures; Inference that reviews became rubber stamps |
 | 5. Output Obsession | Days to resolution, baseline 9.0 | Dashboard leads with "drafts produced" (up 40 percent); days to resolution 8.8 | Dashboard | Cavity | Fact |
 
 Overall rating: Decay.
@@ -45,7 +45,7 @@ Overall rating: Decay.
 |---|---|---|---|
 | Context Creep | Add rebate dispute cases to the eval set and re-run; move order-status emails out, or own them as a separate agent | Stage 2, then Stage 4 | Product Manager |
 | Promiscuous Permissions | Revoke send access; drafts go back through the specialist | Stage 2 and Stage 5 | Billing operations director |
-| Safeguard Sloppage | Sample 30 approved drafts by hand; if reviews are not real, add a check that blocks approval under 20 seconds | Stage 4 and Stage 5 | Product Manager with the billing lead |
+| Work Sloppage | Sample 30 approved drafts by hand; if reviews are not real, add a check that blocks approval under 20 seconds | Stage 4 and Stage 5 | Product Manager with the billing lead |
 | Mission Mush | Restate the canvas Customer and Context | Agent Strategy Canvas | Product Manager |
 | Output Obsession | Put days to resolution first on the dashboard; drop drafts produced as a success measure | Stage 6 | Product Manager |
 
