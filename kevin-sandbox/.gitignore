@@ -1,0 +1,11 @@
+# Synthetic teaching sandbox; generated state and model output stay local.
+.venv/
+node_modules/
+.pytest_cache/
+__pycache__/
+data/state.json
+traces/*.jsonl
+evals/results-*.json
+evals/reports/
+.env
+.env.*

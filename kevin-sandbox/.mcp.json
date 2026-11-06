@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kevin": {
+      "command": "uv", "args": ["run", "server.py"],
+      "env": {"KEVIN_SYNTHETIC": "true"}
+    }
+  }
+}

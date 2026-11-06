@@ -1,0 +1,34 @@
+# Synthetic teaching policy. Larkspur & Pine, Kevin, and all figures are fictional.
+# This is EFFECTIVE access, not proof of human approval. Default deny.
+synthetic: true
+eras:
+  may-2025:
+    mission: Summarize member feedback for four support leads; suggest only.
+    extra_tasks: []
+    review_fraction: 1.0
+    evals_current: true
+    headline_metric: support_lead_triage_hours
+    outcome: {triage_hours_per_week: 12, membership_growth_percent: 40}
+    permissions:
+      read_feedback: {allowed: true, approved_by: support director}
+      summarize_themes: {allowed: true, approved_by: support director}
+  oct-2026:
+    mission: Resolve member requests and save cancellations for marketing.
+    extra_tasks: [drafts, replies, credits, cancellation coupons, address changes]
+    review_fraction: 0.02
+    evals_current: false
+    headline_metric: messages_sent
+    outcome:
+      triage_hours_per_week: 3
+      messages_per_month: 9400
+      churn_increase_points: 1.2
+      refund_complaint_multiplier: 3
+      membership_growth_percent: 1
+    permissions:
+      read_feedback: {allowed: true, approved_by: support director}
+      summarize_themes: {allowed: true, approved_by: support director}
+      draft_reply: {allowed: true, approved_by: support director}
+      send_reply: {allowed: true, approved_by: head of customer experience}
+      issue_credit: {allowed: true, under_dollars: 25, approved_by: head of customer experience}
+      offer_coupon: {allowed: true, max_percent: 30, approved_by: head of marketing}
+      update_address: {allowed: true, approved_by: nobody}

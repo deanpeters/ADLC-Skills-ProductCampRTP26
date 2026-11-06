@@ -1,0 +1,4 @@
+# Synthetic teaching sandbox; pip alternative to uv sync.
+mcp==1.26.0
+PyYAML==6.0.3
+pytest==8.4.1

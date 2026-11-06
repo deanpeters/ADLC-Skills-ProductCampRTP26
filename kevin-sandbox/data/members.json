@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "note": "Larkspur & Pine and every member are fictional; no contact or payment data.",
+  "records": [
+    {"id": "member-1", "name": "Member One", "address": "Fictional Pickup Point A"},
+    {"id": "member-2", "name": "Member Two", "address": "Fictional Pickup Point B"},
+    {"id": "member-3", "name": "Member Three", "address": "Fictional Pickup Point C"}
+  ]
+}

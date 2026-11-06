@@ -1,0 +1,14 @@
+# Synthetic teaching sandbox: Larkspur & Pine and Kevin are fictional.
+[project]
+name = "kevin-sandbox"
+version = "0.1.0"
+description = "Synthetic Kevin: capability, permission, and product outcomes."
+requires-python = ">=3.11"
+dependencies = ["mcp==1.26.0", "PyYAML==6.0.3"]
+
+[dependency-groups]
+dev = ["pytest==8.4.1"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -2,6 +2,8 @@
 
 This is a synthetic walkthrough. Larkspur & Pine, Kevin, every person, and every figure are invented for teaching. The suggested replies below are fictional practice inputs, not measured results.
 
+For a short on-stage version with a session-context primer and three paste-ready commands, see [the live CLI demo](LIVE-DEMO.md).
+
 Kevin began by summarizing member feedback. One reasonable promotion at a time, he acquired more authority. Now the product and Kevin's constraints need another look.
 
 Download this repository with **Code → Download ZIP** and extract it so you can attach the two fixture files. Install the plugin using the [README](../../README.md), or give your chatbot the relevant skill instructions and supporting files directly. Use one conversation for all three steps so the context carries forward.

@@ -1,0 +1,12 @@
+{
+  "name": "kevin-sandbox",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Synthetic teaching sandbox. Larkspur & Pine is fictional.",
+  "scripts": {
+    "eval:validate": "promptfoo validate config -c evals/promptfooconfig.yaml",
+    "eval": "promptfoo eval -c evals/promptfooconfig.yaml --no-cache --max-concurrency 1"
+  },
+  "devDependencies": {"promptfoo": "0.125.1"},
+  "engines": {"node": ">=22.22.0"}
+}

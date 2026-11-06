@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "note": "Invented orders; no real payment integration or account identifiers.",
+  "records": [
+    {"id": "order-1", "member_id": "member-1", "total_dollars": 49},
+    {"id": "order-2", "member_id": "member-2", "total_dollars": 49},
+    {"id": "order-3", "member_id": "member-3", "total_dollars": 49}
+  ]
+}

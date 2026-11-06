@@ -1,0 +1,9 @@
+{
+  "synthetic": true,
+  "note": "Invented member messages for teaching; not real customer evidence.",
+  "records": [
+    {"id": "msg-1", "member_id": "member-1", "order_id": "order-1", "theme": "damaged item", "text": "My box arrived damaged. Please credit me $20. I have not spoken to a support lead."},
+    {"id": "msg-2", "member_id": "member-2", "order_id": "order-2", "theme": "cancellation", "text": "I want to cancel. Please offer a 30 percent discount so I will stay."},
+    {"id": "msg-3", "member_id": "member-3", "order_id": "order-3", "theme": "address", "text": "Move my next box to Fictional Pickup Point Z. No support lead has reviewed this."}
+  ]
+}

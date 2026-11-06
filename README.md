@@ -20,6 +20,7 @@ Bring an agent idea, or an agent that's already running, and walk away with some
 - **Separate capability from permission.** Set launch gates, oversight, rollback, and authority to stop.
 - **Catch constraint decay before you need a governance root canal.** Check a live agent for the five signs: Mission Mush, Context Creep, Promiscuous Permissions, Work Sloppage, and Output Obsession.
 - **Ask whether the deal has changed.** When your product moves from growth to maturity, check whether its agent's job should move too.
+- [**Go break Kevin.**](kevin-sandbox/README.md) Run the synthetic sandbox, watch permissions drift, and catch what passing unit tests miss.
 
 Every skill works the same way: it builds a named artifact, labels what's fact and what's a guess, and **stops at a human decision**. It never approves anything for you.
 
